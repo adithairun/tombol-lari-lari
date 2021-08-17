@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Hai...:)</title>
+
+    <!-- Bootstrap core CSS -->
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+     
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Haii :)</h1>
+        <img src="https://media1.giphy.com/media/a9QBC2aru310k/giphy.gif?cid=790b7611533f054e8ed4a6db457afc4597adb3b40abf1d8b&rid=giphy.gif&ct=g">
+        <img src="https://media.giphy.com/media/26FLdmIp6wJr91JAI/giphy.gif">
+        <p class="lead">
+		 <h1>Mau ga jadi musuhku?</h1>
+          <center>
+		  <button class="btn btn-lg btn-primary" id='btn_mau' onclick='alert("I <3 U")'>Mau</button>&nbsp;
+		  <button class="btn btn-lg btn-danger" id='btn_gamau' onclick='gamau(this)' style='position:absolute'>Gamau</button>
+        </center>
+		</p>
+		<script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*900)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+      </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+         <a href="https://instagram.com/adithairun"> Made WIth <i class="fas fa-heart"></i> By</a>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
